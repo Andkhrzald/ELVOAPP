@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 
-class Responsive {
+class UkuranResponsif {
   static bool isMobile(BuildContext context) =>
       MediaQuery.of(context).size.width < 600;
 
@@ -12,6 +12,6 @@ class Responsive {
       MediaQuery.of(context).size.width >= 1024 &&
       MediaQuery.of(context).size.width < 1440;
 
-  static bool isLargeDesktop(BuildContext context) =>
+  static bool isDesktopLebar(BuildContext context) =>
       MediaQuery.of(context).size.width >= 1440;
 }
